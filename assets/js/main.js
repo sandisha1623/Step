@@ -37,12 +37,12 @@ $(function() {
     });
 
     // scrollUp
-    /*$.scrollUp({
+    $.scrollUp({
         scrollText: '<i class="fa fa-angle-up"></i>',
         easingType: 'linear',
         scrollSpeed: 900,
         animation: 'fade'
-    });*/
+    });
 
     // Instafeed Active 
     if($('#Instafeed').length) {
@@ -63,6 +63,7 @@ $(function() {
 });
 
 
+// Event video player
 document.addEventListener('DOMContentLoaded', () => { 
     // This is the bare minimum JavaScript. You can opt to pass no arguments to setup.
     const player = new Plyr('#player');
